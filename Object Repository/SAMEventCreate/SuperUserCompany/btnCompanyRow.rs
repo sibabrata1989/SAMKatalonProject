@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnCompanyRow</name>
+   <tag></tag>
+   <elementGuidId>ffe9530a-ae32-4df3-822c-388638ee3fb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//tbody//div[@class='v-table-cell-wrapper'])[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//tbody//div[@class='v-table-cell-wrapper'])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

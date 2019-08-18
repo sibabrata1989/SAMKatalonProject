@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>selectGoogleSearchedLocation</name>
+   <tag></tag>
+   <elementGuidId>397c79ef-fa14-4eec-ae8b-c18fc3a67a16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;v-select-select&quot;]/option[text()='${searchedLocation}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;v-select-select&quot;]/option[text()='${searchedLocation}']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SAMTestSuite,Chrome 75.0.3770.80,,,2019-08-17 12:49:58,2019-08-17 12:51:12,1m - 14.868s,FAILED
+,,,,,,,
+Test Cases/SAM_TestCase/EventCreate,Chrome 75.0.3770.80,,,2019-08-17 12:49:58,2019-08-17 12:51:12,1m - 13.119s,FAILED
+common.CommonLibrary.navigateToURL(),Chrome 75.0.3770.80,,,2019-08-17 12:50:00,2019-08-17 12:50:28,27.855s,PASSED
+"common.CommonLibrary.loginSAM(Email, Password)",Chrome 75.0.3770.80,,,2019-08-17 12:50:28,2019-08-17 12:50:33,5.528s,PASSED
+eventCreate.eventCommon.selectCompany(Company),Chrome 75.0.3770.80,,,2019-08-17 12:50:33,2019-08-17 12:51:11,38.278s,FAILED

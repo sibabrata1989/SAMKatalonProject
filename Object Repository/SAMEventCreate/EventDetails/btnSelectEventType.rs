@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSelectEventType</name>
+   <tag></tag>
+   <elementGuidId>b0e52869-f415-4865-be23-371e37857108</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;v-filterselect-suggestmenu&quot;]//span[text()='${selectEvent}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;v-filterselect-suggestmenu&quot;]//span[text()='${selectEvent}']</value>
+   </webElementProperties>
+</WebElementEntity>

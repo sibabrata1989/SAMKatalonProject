@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SAMTestSuite" time="57" tests="0" failures="0" errors="1">
+   <testsuite name="TS_SAMTestSuite" tests="0" failures="0" errors="1" time="57" timestamp="2019-08-18 11:40:23" hostname="sony - Liku" id="Test Suites/TS_SAMTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Reports\\TS_SAMTestSuite\\20190818_114019"/>
+         <property name="logFiles" value="C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Reports\\TS_SAMTestSuite\\20190818_114019\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sony - Liku"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.80"/>
+         <property name="hostAddress" value="169.254.148.186"/>
+         <property name="sessionId" value="b0acc233e6127f52bc57efbfd9b70d06"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/SAM_TestCase/TC_EventCreate" classname="Test Cases/SAM_TestCase/TC_EventCreate" status="ERROR">
+         <error type="ERROR" message="Test Cases/SAM_TestCase/TC_EventCreate FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_EventCreate.run(TC_EventCreate:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566108619701.run(TempTestSuite1566108619701.groovy:35)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.addEventDetails(eventCommon.groovy:50)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1566026788738.run(Script1566026788738.groovy:22)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-08-18 11:40:23 - [TEST_CASE][ERROR] - Test Cases/SAM_TestCase/TC_EventCreate: Test Cases/SAM_TestCase/TC_EventCreate FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_EventCreate.run(TC_EventCreate:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566108619701.run(TempTestSuite1566108619701.groovy:35)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.addEventDetails(eventCommon.groovy:50)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1566026788738.run(Script1566026788738.groovy:22)
+	... 13 more
+
+
+2019-08-18 11:40:25 - [TEST_STEP][PASSED] - common.CommonLibrary.navigateToURL(): common.CommonLibrary.navigateToURL is PASSED
+
+2019-08-18 11:40:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-18 11:40:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-18 11:40:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://test-sam.interact.technology/app/login'
+
+2019-08-18 11:40:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-18 11:40:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-18 11:40:49 - [MESSAGE][PASSED] - common.CommonLibrary.navigateToURL is PASSED
+
+2019-08-18 11:40:49 - [TEST_STEP][PASSED] - common.CommonLibrary.loginSAM(Email, Password): common.CommonLibrary.loginSAM is PASSED
+
+2019-08-18 11:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/SAM_Login/btnCookies' is present
+
+2019-08-18 11:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnCookies' is clicked on
+
+2019-08-18 11:40:52 - [MESSAGE][PASSED] - Text 'roopa@interact.technology' is set on object 'Object Repository/SAM_Login/txtUserName'
+
+2019-08-18 11:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnNext' is clicked on
+
+2019-08-18 11:40:53 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/SAM_Login/txtPassword'
+
+2019-08-18 11:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnLogin' is clicked on
+
+2019-08-18 11:40:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-18 11:40:56 - [MESSAGE][PASSED] - common.CommonLibrary.loginSAM is PASSED
+
+2019-08-18 11:40:56 - [TEST_STEP][PASSED] - eventCreate.eventCommon.selectCompany(Company): eventCreate.eventCommon.selectCompany is PASSED
+
+2019-08-18 11:41:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-18 11:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/SuperUserCompany/linkSuperUser' is clicked on
+
+2019-08-18 11:41:02 - [MESSAGE][PASSED] - Text 'Archanas' is set on object 'Object Repository/SAMEventCreate/SuperUserCompany/txtSearchCompany'
+
+2019-08-18 11:41:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-18 11:41:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SAMEventCreate/SuperUserCompany/txtSearchCompany'
+
+2019-08-18 11:41:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-18 11:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/SuperUserCompany/btnCompanyRow' is clicked on
+
+2019-08-18 11:41:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-18 11:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/SuperUserCompany/btnMyInteract' is clicked on
+
+2019-08-18 11:41:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-18 11:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/SuperUserCompany/btnMyEvent' is clicked on
+
+2019-08-18 11:41:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-18 11:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/SuperUserCompany/btnAddEvent' is clicked on
+
+2019-08-18 11:41:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-18 11:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/SuperUserCompany/btnEventDetailsTab' is clicked on
+
+2019-08-18 11:41:14 - [MESSAGE][PASSED] - eventCreate.eventCommon.selectCompany is PASSED
+
+2019-08-18 11:41:14 - [TEST_STEP][ERROR] - eventCreate.eventCommon.addEventDetails(EventName, EventType, EventDetails, Address, StartDate, EndDate, Timezone): groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-08-18 11:41:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-18 11:41:17 - [MESSAGE][PASSED] - Text 'Test Event' is set on object 'Object Repository/SAMEventCreate/EventDetails/txtEventName'
+
+2019-08-18 11:41:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-18 11:41:18 - [MESSAGE][PASSED] - Text 'Committee' is set on object 'Object Repository/SAMEventCreate/EventDetails/txtEventType'
+
+2019-08-18 11:41:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-18 11:41:19 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-out>
+         <system-err><![CDATA[2019-08-18 11:40:23 - [TEST_CASE][ERROR] - Test Cases/SAM_TestCase/TC_EventCreate: Test Cases/SAM_TestCase/TC_EventCreate FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_EventCreate.run(TC_EventCreate:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566108619701.run(TempTestSuite1566108619701.groovy:35)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.addEventDetails(eventCommon.groovy:50)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1566026788738.run(Script1566026788738.groovy:22)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-18 11:40:23 - [TEST_SUITE][ERROR] - TS_SAMTestSuite: Test Cases/SAM_TestCase/TC_EventCreate FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_EventCreate.run(TC_EventCreate:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566108619701.run(TempTestSuite1566108619701.groovy:35)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.addEventDetails(eventCommon.groovy:50)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1566026788738.run(Script1566026788738.groovy:22)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-08-18 11:40:23 - [TEST_SUITE][ERROR] - TS_SAMTestSuite: Test Cases/SAM_TestCase/TC_EventCreate FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_EventCreate.run(TC_EventCreate:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566108619701.run(TempTestSuite1566108619701.groovy:35)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/SAMEventCreate/EventDetails/selectEventType', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at eventCreate.eventCommon.addEventDetails(eventCommon.groovy:50)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1566026788738.run(Script1566026788738.groovy:22)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

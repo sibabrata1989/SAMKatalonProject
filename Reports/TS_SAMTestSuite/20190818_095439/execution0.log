@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-18T09:54:43</date>
+  <millis>1566102283885</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_SAMTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_SAMTestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_SAMTestSuite</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:43</date>
+  <millis>1566102283914</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sony - Liku</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sony - Liku</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:43</date>
+  <millis>1566102283915</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:43</date>
+  <millis>1566102283916</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 169.254.148.186</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">169.254.148.186</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:43</date>
+  <millis>1566102283918</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.3.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.3.3</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284545</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/SAM_TestCase/TC_EventCreate</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/SAM_TestCase/TC_EventCreate</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/SAM_TestCase/TC_EventCreate</property>
+  <property name="source">C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Test Cases\\SAM_TestCase\\TC_EventCreate.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284620</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Email = roopa@interact.technology</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284621</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Password = Password1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284621</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Company = Archanas</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284622</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EventName = Test Event</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284623</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EventType = Committee</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284624</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EventDetails = Test Event Details</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284625</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Address = 50 Pitt St, Sydney NSW 2000, Australia</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284625</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>StartDate = 8-Aug-2019  9:36:00 AM</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:44</date>
+  <millis>1566102284626</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>EndDate = 22-Aug-2019 09:37</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:45</date>
+  <millis>1566102285920</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.CommonLibrary.navigateToURL()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-18T09:54:45</date>
+  <millis>1566102285960</millis>
+  <sequence>19</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot find test data with id &amp;apos;Data Files/Environment&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/Environment&amp;apos; does not exist&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:45</date>
+  <millis>1566102285961</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.CommonLibrary.navigateToURL()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:46</date>
+  <millis>1566102286003</millis>
+  <sequence>22</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/SAM_TestCase/TC_EventCreate FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/Environment&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/Environment&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat common.CommonLibrary.navigateToURL(CommonLibrary.groovy:25)\r\n\tat common.CommonLibrary.invokeMethod(CommonLibrary.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)\r\n\tat TC_EventCreate.run(TC_EventCreate:16)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1566102279966.run(TempTestSuite1566102279966.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Environment' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Environment' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>common.CommonLibrary</class>
+      <method>navigateToURL</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>common.CommonLibrary</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>TC_EventCreate</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1566102279966</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:46</date>
+  <millis>1566102286010</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/SAM_TestCase/TC_EventCreate</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-18T09:54:46</date>
+  <millis>1566102286413</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_SAMTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

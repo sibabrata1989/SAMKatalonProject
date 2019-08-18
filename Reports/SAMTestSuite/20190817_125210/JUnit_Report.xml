@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SAMTestSuite" time="45" tests="0" failures="0" errors="1">
+   <testsuite name="SAMTestSuite" tests="0" failures="0" errors="1" time="45" timestamp="2019-08-17 12:52:16" hostname="sony - Liku" id="Test Suites/SAMTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Reports\\SAMTestSuite\\20190817_125210"/>
+         <property name="logFiles" value="C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Reports\\SAMTestSuite\\20190817_125210\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sony - Liku"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.80"/>
+         <property name="hostAddress" value="169.254.148.186"/>
+         <property name="sessionId" value="cae6c2a06142c6e8457af80317272673"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/SAM_TestCase/EventCreate" classname="Test Cases/SAM_TestCase/EventCreate" status="ERROR">
+         <error type="ERROR" message="Test Cases/SAM_TestCase/EventCreate FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: eventCreate.eventCommon
+	at eventCreate.eventCommon.selectCompany(eventCommon.groovy:27)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at EventCreate.run(EventCreate:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566026530995.run(TempTestSuite1566026530995.groovy:35)
+"/>
+         <system-out><![CDATA[2019-08-17 12:52:17 - [TEST_CASE][ERROR] - Test Cases/SAM_TestCase/EventCreate: Test Cases/SAM_TestCase/EventCreate FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: eventCreate.eventCommon
+	at eventCreate.eventCommon.selectCompany(eventCommon.groovy:27)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at EventCreate.run(EventCreate:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566026530995.run(TempTestSuite1566026530995.groovy:35)
+
+
+2019-08-17 12:52:18 - [TEST_STEP][PASSED] - common.CommonLibrary.navigateToURL(): common.CommonLibrary.navigateToURL is PASSED
+
+2019-08-17 12:52:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-17 12:52:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-17 12:52:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://test-sam.interact.technology/app/login'
+
+2019-08-17 12:52:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-17 12:52:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-17 12:52:49 - [MESSAGE][PASSED] - common.CommonLibrary.navigateToURL is PASSED
+
+2019-08-17 12:52:49 - [TEST_STEP][PASSED] - common.CommonLibrary.loginSAM(Email, Password): common.CommonLibrary.loginSAM is PASSED
+
+2019-08-17 12:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/SAM_Login/btnCookies' is present
+
+2019-08-17 12:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnCookies' is clicked on
+
+2019-08-17 12:52:50 - [MESSAGE][PASSED] - Text 'roopa@interact.technology' is set on object 'Object Repository/SAM_Login/txtUserName'
+
+2019-08-17 12:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnNext' is clicked on
+
+2019-08-17 12:52:52 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/SAM_Login/txtPassword'
+
+2019-08-17 12:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnLogin' is clicked on
+
+2019-08-17 12:52:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-17 12:52:55 - [MESSAGE][PASSED] - common.CommonLibrary.loginSAM is PASSED
+
+2019-08-17 12:52:55 - [TEST_STEP][ERROR] - eventCreate.eventCommon.selectCompany(Company): No such property: Keys for class: eventCreate.eventCommon
+
+2019-08-17 12:53:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-17 12:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/linkSuperUser' is clicked on
+
+2019-08-17 12:53:01 - [MESSAGE][PASSED] - Text 'Archanas' is set on object 'Object Repository/SAMEventCreate/txtSearchCompany'
+
+2019-08-17 12:53:01 - [MESSAGE][ERROR] - No such property: Keys for class: eventCreate.eventCommon]]></system-out>
+         <system-err><![CDATA[2019-08-17 12:52:17 - [TEST_CASE][ERROR] - Test Cases/SAM_TestCase/EventCreate: Test Cases/SAM_TestCase/EventCreate FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: eventCreate.eventCommon
+	at eventCreate.eventCommon.selectCompany(eventCommon.groovy:27)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at EventCreate.run(EventCreate:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566026530995.run(TempTestSuite1566026530995.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-17 12:52:16 - [TEST_SUITE][ERROR] - SAMTestSuite: Test Cases/SAM_TestCase/EventCreate FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: eventCreate.eventCommon
+	at eventCreate.eventCommon.selectCompany(eventCommon.groovy:27)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at EventCreate.run(EventCreate:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566026530995.run(TempTestSuite1566026530995.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-08-17 12:52:16 - [TEST_SUITE][ERROR] - SAMTestSuite: Test Cases/SAM_TestCase/EventCreate FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: eventCreate.eventCommon
+	at eventCreate.eventCommon.selectCompany(eventCommon.groovy:27)
+	at eventCreate.eventCommon.invokeMethod(eventCommon.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at EventCreate.run(EventCreate:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566026530995.run(TempTestSuite1566026530995.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

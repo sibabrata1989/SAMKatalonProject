@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SAMTestSuite" time="47" tests="1" failures="0" errors="0">
+   <testsuite name="TS_SAMTestSuite" tests="1" failures="0" errors="0" time="47" timestamp="2019-08-17 13:47:04" hostname="sony - Liku" id="Test Suites/TS_SAMTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Reports\\TS_SAMTestSuite\\20190817_134659"/>
+         <property name="logFiles" value="C:\\Users\\sony\\Desktop\\Freelancer\\Katalon Project\\SAM_UIAutomation\\Reports\\TS_SAMTestSuite\\20190817_134659\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sony - Liku"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.80"/>
+         <property name="hostAddress" value="169.254.148.186"/>
+         <property name="sessionId" value="d06ad97362f06cbd3f1d1718fc7c8975"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/SAM_TestCase/TC_EventCreate" classname="Test Cases/SAM_TestCase/TC_EventCreate" status="PASSED">
+         <system-out><![CDATA[2019-08-17 13:47:05 - [TEST_CASE][PASSED] - Test Cases/SAM_TestCase/TC_EventCreate: Test Cases/SAM_TestCase/TC_EventCreate
+
+2019-08-17 13:47:06 - [TEST_STEP][PASSED] - common.CommonLibrary.navigateToURL(): common.CommonLibrary.navigateToURL is PASSED
+
+2019-08-17 13:47:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-17 13:47:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-17 13:47:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://test-sam.interact.technology/app/login'
+
+2019-08-17 13:47:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-17 13:47:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-17 13:47:29 - [MESSAGE][PASSED] - common.CommonLibrary.navigateToURL is PASSED
+
+2019-08-17 13:47:29 - [TEST_STEP][PASSED] - common.CommonLibrary.loginSAM(Email, Password): common.CommonLibrary.loginSAM is PASSED
+
+2019-08-17 13:47:29 - [MESSAGE][PASSED] - Object 'Object Repository/SAM_Login/btnCookies' is present
+
+2019-08-17 13:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnCookies' is clicked on
+
+2019-08-17 13:47:30 - [MESSAGE][PASSED] - Text 'roopa@interact.technology' is set on object 'Object Repository/SAM_Login/txtUserName'
+
+2019-08-17 13:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnNext' is clicked on
+
+2019-08-17 13:47:32 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/SAM_Login/txtPassword'
+
+2019-08-17 13:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SAM_Login/btnLogin' is clicked on
+
+2019-08-17 13:47:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-17 13:47:35 - [MESSAGE][PASSED] - common.CommonLibrary.loginSAM is PASSED
+
+2019-08-17 13:47:35 - [TEST_STEP][PASSED] - eventCreate.eventCommon.selectCompany(Company): eventCreate.eventCommon.selectCompany is PASSED
+
+2019-08-17 13:47:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-17 13:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/linkSuperUser' is clicked on
+
+2019-08-17 13:47:41 - [MESSAGE][PASSED] - Text 'Archanas' is set on object 'Object Repository/SAMEventCreate/txtSearchCompany'
+
+2019-08-17 13:47:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-17 13:47:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/SAMEventCreate/txtSearchCompany'
+
+2019-08-17 13:47:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-17 13:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/btnCompanyRow' is clicked on
+
+2019-08-17 13:47:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-17 13:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/btnMyInteract' is clicked on
+
+2019-08-17 13:47:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-17 13:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SAMEventCreate/btnMyEvent' is clicked on
+
+2019-08-17 13:47:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-17 13:47:51 - [MESSAGE][PASSED] - eventCreate.eventCommon.selectCompany is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-17 13:47:04 - [TEST_SUITE][PASSED] - TS_SAMTestSuite: Test Cases/SAM_TestCase/TC_EventCreate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
