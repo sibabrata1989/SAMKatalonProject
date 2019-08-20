@@ -23,7 +23,7 @@ public class eventCommon {
 
 	@Keyword
 	def selectCompany(String company){
-		WebUI.delay(5)
+		WebUI.delay(3)
 		WebUI.click(findTestObject('SAMEventCreate/SuperUserCompany/linkSuperUser'))
 		WebUI.setText(findTestObject('SAMEventCreate/SuperUserCompany/txtSearchCompany'), company)
 		WebUI.delay(1)
