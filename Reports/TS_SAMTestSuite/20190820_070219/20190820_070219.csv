@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_SAMTestSuite,,,,2019-08-20 07:02:26,2019-08-20 07:02:40,14.599s,FAILED
+,,,,,,,
+Test Cases/SAM_TestCase/TC_EventCreate,,,,2019-08-20 07:02:26,2019-08-20 07:02:40,13.571s,FAILED
+common.CommonLibrary.navigateToURL(),,,,2019-08-20 07:02:28,2019-08-20 07:02:40,12.040s,FAILED
