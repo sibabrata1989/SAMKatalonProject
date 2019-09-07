@@ -22,3 +22,5 @@ CustomKeywords.'eventCreate.eventCommon.selectCompany'(Company)
 CustomKeywords.'eventCreate.eventCommon.addEventDetails'(EventName, EventType, EventDetails, Address, StartDate, EndDate, 
     Timezone)
 
+Response rsp = WS.sendRequest(findTestObject('SAM_CreateEventAPI/WSLoginAPI'))
+
