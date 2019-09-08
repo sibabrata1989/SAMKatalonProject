@@ -84,4 +84,9 @@
       <initValue>'ZCt0axRVVOWmdcdtY86ebQ=='</initValue>
       <name>token</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abcd'</initValue>
+      <name>EventUUID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

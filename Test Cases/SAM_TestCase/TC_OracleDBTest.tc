@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OracleDBTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9abe40f-565a-4766-9147-b536a6532338</testCaseGuid>
+   <variable>
+      <defaultValue>'cms_ro_user'</defaultValue>
+      <description></description>
+      <id>96d6e022-0062-49d0-ba0c-7c1ccc7cb85e</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ce2dca3-db66-489b-a648-35ffa53b8b88</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'select EVENT_UUID, Event_name from Event where Event_name = \'test event 0907\' and COMPANY_ID = 561'</defaultValue>
+      <description></description>
+      <id>1857df53-9187-4673-a848-1f2906e009e9</id>
+      <masked>false</masked>
+      <name>eventName</name>
+   </variable>
+</TestCaseEntity>
