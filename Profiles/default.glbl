@@ -79,4 +79,9 @@
       <initValue>'\\\\Test Data Files\\\\CSV Test Data File.csv'</initValue>
       <name>CSV_TestData_Path</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ZCt0axRVVOWmdcdtY86ebQ=='</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

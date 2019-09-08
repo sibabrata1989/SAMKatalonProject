@@ -1,36 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>WSGetEventUUID</name>
+   <name>WSLoginAPI</name>
    <tag></tag>
-   <elementGuidId>c38df911-9874-4705-890d-e74169c20a4f</elementGuidId>
+   <elementGuidId>8cb921ce-ce65-4573-aa44-7c49af26c5c6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;uEmail&quot;,
+      &quot;value&quot;: &quot;qa.summer@yopmail.com&quot;
+    },
+    {
+      &quot;name&quot;: &quot;uPassword&quot;,
+      &quot;value&quot;: &quot;Password1&quot;
+    },
+    {
+      &quot;name&quot;: &quot;appCode&quot;,
+      &quot;value&quot;: &quot;MY&quot;
+    },
+    {
+      &quot;name&quot;: &quot;version&quot;,
+      &quot;value&quot;: &quot;1&quot;
+    }
+  ]
+}</httpBodyContent>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>x-nextinteract-authtoken</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>${GlobalVariable.token}</value>
+      <value>application/x-www-form-urlencoded</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://test-services.interact.technology/rest/user/mi/events?version=1&amp;userUTCDateTimeMillis=1567837940000&amp;userGMTOffsetMins=600</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://test-services.interact.technology/rest/user/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
-      <id>00dacdd2-1a3b-4e4d-9057-396510381d3b</id>
+      <id>334dde66-a45a-46d1-94db-af0c277967b8</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>token</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -51,6 +72,11 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
+
+GlobalVariable.token = response.getHeaderFields().get('x-nextinteract-authtoken').toString()
+
+
+
 
 </verificationScript>
    <wsdlAddress></wsdlAddress>

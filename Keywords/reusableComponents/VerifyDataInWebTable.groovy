@@ -12,7 +12,6 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.testng.Assert
 import org.openqa.selenium.interactions.internal.Coordinates;
-import org.openqa.selenium.internal.Locatable;
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
