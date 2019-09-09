@@ -13,14 +13,14 @@
       <name>userName</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'cmsr34doonly_'</defaultValue>
       <description></description>
       <id>4ce2dca3-db66-489b-a648-35ffa53b8b88</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'select EVENT_UUID, Event_name from Event where Event_name = \'test event 0907\' and COMPANY_ID = 561'</defaultValue>
+      <defaultValue>'abc test2'</defaultValue>
       <description></description>
       <id>1857df53-9187-4673-a848-1f2906e009e9</id>
       <masked>false</masked>

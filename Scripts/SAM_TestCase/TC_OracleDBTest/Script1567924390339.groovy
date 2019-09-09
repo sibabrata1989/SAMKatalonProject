@@ -16,5 +16,5 @@ import groovy.util.logging.Commons
 import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'common.orcaleDBTest.connectDB'(userName, password)
-CustomKeywords.'common.orcaleDBTest.execute'(selectQuery)
+CustomKeywords.'common.orcaleDBTest.execute'(eventName)
 CustomKeywords.'common.orcaleDBTest.closeDatabaseConnection'()

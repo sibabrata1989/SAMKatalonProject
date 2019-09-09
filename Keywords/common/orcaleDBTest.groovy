@@ -30,9 +30,9 @@ public class orcaleDBTest {
 	 
 	def executeQuery(String event) { 
 	Statement stm = connection.createStatement()
-	String query = 'select EVENT_UUID, Event_name from Event where Event_name = eventName and COMPANY_ID = 561'
-	String selectQuery = query.replace('eventName', event)
-	ResultSet rs = stm.executeQuery(selectQuery)
+	String query = "select EVENT_UUID, Event_name from Event where Event_name = '"+event+"' and COMPANY_ID = 561"
+	//String selectQuery = query.replace('eventName', event)
+	ResultSet rs = stm.executeQuery(query)
 	return rs
 	 
 	}
