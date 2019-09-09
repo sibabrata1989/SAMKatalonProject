@@ -81,12 +81,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ZCt0axRVVOWmdcdtY86ebQ=='</initValue>
+      <initValue>''</initValue>
       <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'abcd'</initValue>
+      <initValue>''</initValue>
       <name>EventUUID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
