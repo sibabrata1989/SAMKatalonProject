@@ -25,13 +25,6 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>00dacdd2-1a3b-4e4d-9057-396510381d3b</id>
-      <masked>false</masked>
-      <name>variable</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -54,7 +47,6 @@ assertThat(response.getStatusCode()).isEqualTo(200)
 
 
 
-
-assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))</verificationScript>
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
