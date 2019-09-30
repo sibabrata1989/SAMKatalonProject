@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequest(findTestObject('SAM_CreateEventAPI/WSLoginAPI'))
+WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSLoginAPI'))
 
-WS.sendRequest(findTestObject('SAM_CreateEventAPI/WSGetEventUUID'))
+WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSGetEventUUID'))
 

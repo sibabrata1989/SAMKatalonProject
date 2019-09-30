@@ -18,7 +18,7 @@
     },
     {
       &quot;name&quot;: &quot;uPassword&quot;,
-      &quot;value&quot;: &quot;Password1&quot;
+      &quot;value&quot;: &quot;Welcome1&quot;
     },
     {
       &quot;name&quot;: &quot;appCode&quot;,
@@ -58,15 +58,21 @@
 import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.webservice.verification.WSResponseManager
-
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import internal.GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
+WS.verifyResponseStatusCode(response, 200)
 
-GlobalVariable.token = response.getHeaderFields('x-nextinteract-authtoken').toString()
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+//GlobalVariable.token = response.getHeaderFields().get('x-nextinteract-authtoken')
+
+//System.out.println(GlobalVariable.token)
+
 
 </verificationScript>
    <wsdlAddress></wsdlAddress>
