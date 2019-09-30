@@ -46,13 +46,6 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>GlobalVariable.token</defaultValue>
-      <description></description>
-      <id>58ed53ea-42b2-4669-97e4-c6f4350c81d0</id>
-      <masked>false</masked>
-      <name>token</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -69,9 +62,6 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-//GlobalVariable.token = response.getHeaderFields().get('x-nextinteract-authtoken')
-
-//System.out.println(GlobalVariable.token)
 
 
 </verificationScript>

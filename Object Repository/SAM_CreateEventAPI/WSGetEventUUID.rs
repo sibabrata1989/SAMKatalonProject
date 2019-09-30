@@ -15,7 +15,7 @@
       <matchCondition>equals</matchCondition>
       <name>x-nextinteract-authtoken</name>
       <type>Main</type>
-      <value>${GlobalVariable.token}</value>
+      <value>${tokenVar}</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
@@ -25,6 +25,13 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.token</defaultValue>
+      <description></description>
+      <id>57ee132d-9962-4502-bf5c-ba88d78a3f2d</id>
+      <masked>false</masked>
+      <name>tokenVar</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

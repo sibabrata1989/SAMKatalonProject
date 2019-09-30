@@ -13,7 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSLoginAPI'))
+response = WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSLoginAPI'))
 
+//fetching token from response header
+String[] token = response.getHeaderFields().get('x-nextinteract-authtoken')
+
+//Setting global varibale token
+GlobalVariable.token = token[0]
+println('The token value is '+GlobalVariable.token)
+
+//2nd request
 WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSGetEventUUID'))
 
