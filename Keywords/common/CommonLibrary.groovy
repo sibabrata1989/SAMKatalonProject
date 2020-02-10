@@ -33,14 +33,25 @@ public class CommonLibrary {
 		WebUI.closeBrowser()
 	}
 	@Keyword
-	def loginSAM(String email, String password){
+	def loginSAM(String testCaseName,String email, String password){
 		if(WebUI.verifyElementPresent(findTestObject('SAM_Login/btnCookies'), 10)){
 			WebUI.click(findTestObject('SAM_Login/btnCookies'))
 		}
-		WebUI.setText(findTestObject('SAM_Login/txtUserName'), email)
-		WebUI.click(findTestObject('SAM_Login/btnNext'))
-		WebUI.setText(findTestObject('SAM_Login/txtPassword'), password)
-		WebUI.click(findTestObject('SAM_Login/btnLogin'))
+		int i =1
+		def maxRow = findTestData('SAMTestData').getRowNumbers()
+		println maxRow
+		while (i<=maxRow)
+		{
+		if (findTestData('SAMTestData').getValue('TestCaseName',i)==testCaseName)
+			{
+				WebUI.setText(findTestObject('SAM_Login/txtUserName'), findTestData('SAMTestData').getValue('Email', i))
+				WebUI.click(findTestObject('SAM_Login/btnNext'))
+				WebUI.setText(findTestObject('SAM_Login/txtPassword'), findTestData('SAMTestData').getValue('Password', i))
+				WebUI.refresh()
+			}
+			i++
+		}
+		//WebUI.click(findTestObject('SAM_Login/btnLogin'))
 		WebUI.delay(3)
 	}
 }

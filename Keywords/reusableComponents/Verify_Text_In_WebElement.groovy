@@ -35,10 +35,10 @@ import MobileBuiltInKeywords as Mobile
 import WebUiBuiltInKeywords as WebUI
 
 public class Verify_Text_In_WebElement {
-	
+
 	@Keyword
 	def verifyTextInWebelement(TestObject objectto, String expText) {
-		
+
 		String actText = WebUiCommonHelper.findWebElement(objectto, 20).getText()
 
 		Assert.assertEquals(actText, expText)

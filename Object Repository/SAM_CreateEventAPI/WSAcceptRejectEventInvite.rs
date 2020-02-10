@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>WSGetEventUUID</name>
+   <name>WSAcceptRejectEventInvite</name>
    <tag></tag>
-   <elementGuidId>ee52f7a5-ac9f-49d3-8d01-36aed4d7b483</elementGuidId>
+   <elementGuidId>90a7e323-5cbd-4218-bb93-09dabb63ac81</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;version\&quot;: 1,\n  \&quot;eventInviteUUID\&quot;: \&quot;6e11664e-a2bf-44dc-b8db-9d6612fbde90\&quot;,\n  \&quot;attendingStatus\&quot;: \&quot;Yes\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/plain</value>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -18,8 +29,8 @@
       <value>${tokenVar}</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://test-services.interact.technology/rest/user/mi/event?version=1&amp;eventUUID=2787aaf9-da28-44cb-b310-5aa038d652c7</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://test-services.interact.technology/rest/user/mi/events/acceptReject</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -28,7 +39,7 @@
    <variables>
       <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
-      <id>57ee132d-9962-4502-bf5c-ba88d78a3f2d</id>
+      <id>7bdb637e-6556-44e7-a333-6beb08595512</id>
       <masked>false</masked>
       <name>tokenVar</name>
    </variables>
@@ -48,14 +59,14 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
 
+
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'cName', 'My Interact Finance')
 
-WS.verifyElementPropertyValue(response, 'eStatus', 'A')
 
-WS.verifyElementPropertyValue(response, 'eName', 'Test Event3')</verificationScript>
+
+WS.verifyElementPropertyValue(response, 'eAttendeeInviteStatus', 'A')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

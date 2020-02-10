@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>WSGetEventUUID</name>
+   <name>WSGetEventBrochuresForUser</name>
    <tag></tag>
-   <elementGuidId>ee52f7a5-ac9f-49d3-8d01-36aed4d7b483</elementGuidId>
+   <elementGuidId>24568cda-9fb1-4fa1-afcd-74de776db4d2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -19,7 +19,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://test-services.interact.technology/rest/user/mi/event?version=1&amp;eventUUID=2787aaf9-da28-44cb-b310-5aa038d652c7</restUrl>
+   <restUrl>https://test-services.interact.technology/rest/brochures/event/10</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -52,10 +52,12 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'cName', 'My Interact Finance')
 
-WS.verifyElementPropertyValue(response, 'eStatus', 'A')
 
-WS.verifyElementPropertyValue(response, 'eName', 'Test Event3')</verificationScript>
+
+
+
+
+WS.verifyElementPropertyValue(response, 'pName[0]', 'Event Product')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

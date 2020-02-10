@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>SAMTestData</name>
+   <name>addAssets</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>d60dd1ae-de91-443a-95cd-d67324569285</dataFileGUID>
+   <dataFileGUID>426a58af-0b0a-4a7b-9fbf-ef2282ee6b7f</dataFileGUID>
    <dataSourceUrl>C:\Users\sony\Desktop\Freelancer\Katalon Project\TestDataResource\SAMTestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Create Event</sheetName>
+   <sheetName>Add Assets</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
