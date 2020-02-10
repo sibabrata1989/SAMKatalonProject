@@ -22,11 +22,9 @@ String[] token = response.getHeaderFields().get('x-nextinteract-authtoken')
 GlobalVariable.token = token[0]
 println('The token value is '+GlobalVariable.token)
 
-//2nd request
 WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSGetEventUUID'))
 
 WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSGetEventsUUID'))
-
 
 WS.sendRequestAndVerify(findTestObject('SAM_CreateEventAPI/WSAcceptRejectEventInvite'))
 
